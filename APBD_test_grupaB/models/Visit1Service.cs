@@ -1,10 +1,10 @@
 namespace APBD_test_grupaB.models;
 
-public class VisitService
+public class Visit1Service
 {
-    public int VisitId { get; set; }
-    public int ServiceId { get; set; }
-    public decimal ServiceFee { get; set; }
+    public int visit_id { get; set; }
+    public int service_id { get; set; }
+    public decimal service_fee { get; set; }
 
     public Visit Visit { get; set; }
     public Service Service { get; set; }
