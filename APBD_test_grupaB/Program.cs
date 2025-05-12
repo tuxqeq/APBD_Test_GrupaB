@@ -1,4 +1,3 @@
-using APBD_test_grupaB.Components;
 using APBD_test_grupaB.Services;
 
 var builder = WebApplication.CreateBuilder(args);
